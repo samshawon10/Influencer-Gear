@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+} 
+header{
+    display: flex;
+}
+header h3{
+  
+    margin-left: 120px;
+    margin-top: 85px;
+    font-size: 24px;
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+    width: 243px;
+    height: 52px;
+}
+.gear-header ul{
+    width: 500px;
+    height: 36px;
+    list-style: none;
+    display: flex;
+   margin-top: 95px;
+   margin-right: 120px;
+   margin-left: 500px;
+   align-items: center;
+   justify-content: space-between;
+}
+.gear-header ul li{
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.gear-header li{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(58, 58, 58);
+}
+
+/* Influencer section style */
+.influencer{
+    display: flex;
+    margin-top: 145px;
+    margin-left: 120px;
+    width: 582px;
+    height: 270px;
+}
+.influencer-content h1{
+    margin-top:0px;
+    width: 582px;
+    height: 133px;
+    color:rgb(58, 58, 58);
+    font-size: 3.25rem;
+    font-weight: 700;
+    text-align: left;
+} 
+.influencer-content p{
+    width: 505px;
+    height: 60px;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.btn-primary{
+    border-radius: 41px;
+    background:rgb(224, 44, 109) ;
+    margin-top: 8px;
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.influencer-img-div{
+    margin-top: -90px;
+    width: 475px;
+    height: 475px;
+    margin-right: 120px;
+    margin-left: 131px;
+    background: url(images/Circle\ design.svg) no-repeat;
+}
+
+.influencer-img-div img{
+width: 440px;
+height: 414px;
+margin-top: 30px;
+}
+
+/* Sponsor Company's Styles */
+ .sponsor-companies{
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    position: absolute;
+    margin-top: 500px;
+    left: 165px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* populer-collection styles started here  */
+
+.populer-collection{
+    margin-top: 680px;
+    left: 190px;
+    right: 190px;
+    position: absolute;
+}
+.populer-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.title-tag{
+position: absolute;
+width: 100%;
+height: 70px;
+color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+text-align: center;
+}
+
+.checked {
+    color: orange;
+  }
+  .title-box{
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: left;
+  }
+
+  .title-box img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    padding:30px 30px 16px 30px;
+  }
+
+.rating{
+    display: inline;
+}
+
+.title-box>h2,h4,p{
+    padding-left: 30px;
+}
+.span-div{
+    
+    padding-left: 30px;
+}
+
